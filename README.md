@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Norlin
 
-You can use the [editor on GitHub](https://github.com/RazorSPoint/razorspoint.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Norlin is a creative modern theme with a clean design specially created for dark themes lovers.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Norlin theme is fully responsive and looks great on mobile devices and has a beautiful and modern design that is best suited for your personal or corporate blog. You can easily customize the theme by changing the accent colors, the arrangement of the widgets, etc.
 
-### Markdown
+* * *
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Demo
 
-```markdown
-Syntax highlighted code block
+Check the theme in action [Demo](https://norlin.netlify.app/)
 
-# Header 1
-## Header 2
-### Header 3
+* * *
 
-- Bulleted
-- List
+### Deployment
 
-1. Numbered
-2. List
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `bundle exec jekyll serve` to start the Jekyll server.
 
-**Bold** and _Italic_ and `Code` text
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* * *
 
-### Jekyll Themes
+### Documentation
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RazorSPoint/razorspoint.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Before using the Norlin theme, please read the attached documentation.

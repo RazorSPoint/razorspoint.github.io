@@ -1,0 +1,63 @@
+{% if page.id %}
+  {% assign class = '' %}
+  {% elsif page.url contains 'tag' %}
+  {% assign class = '' %}
+  {% else %}
+  {% assign class = 'header--top' %}
+{% endif %}
+
+<!-- begin header -->
+<header class="header {{ class }}">
+  <div class="container">
+    <div class="row">
+      <div class="header__inner col col-12">
+
+      <div class="logo">
+        <a class="logo__link" href="{{ site.baseurl }}/">
+        {%if site.logo %}
+          <img class="logo__image" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}">
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+        </a>
+      </div>
+        
+      <div class="menu-overlay">
+        <nav class="main-nav">
+          <div class="main-nav__box">
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <div class="nav-grid">
+              <div class="nav-grid__item">
+                <h2 class="nav-grid__title">Menu</h2>
+                <div class="mobile-nav">
+                  {% include navigation.html %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="navigation">
+        <div class="top-nav">
+          {% include navigation.html %}
+        </div>
+      </div>
+
+      <div class="nav-buttons">
+        <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
+        <div class="search-button">
+          <i class="nav__icon nav__icon-search ion ion-md-search"></i>
+          <span>Search</span>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+{% include search.html %}

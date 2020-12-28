@@ -1,0 +1,26 @@
+<!-- begin footer-widgets -->
+<section class="footer-widgets">
+  <div class="container">
+    <div class="row">
+      {% include footer-widgets/widget-recent-posts.html %}
+      {% include footer-widgets/widget-tag-cloud.html %}
+      {% include footer-widgets/widget-subscribe.html %}
+    </div>
+  </div>
+</section>
+<!-- end footer-widgets -->
+
+<!-- begin footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+      <div class="footer__inner">
+        <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.title}}</a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
+        {% include social-links.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->
