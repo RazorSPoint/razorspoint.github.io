@@ -1,1 +1,8 @@
 theme: jekyll-theme-midnight
+
+gems:
+  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
